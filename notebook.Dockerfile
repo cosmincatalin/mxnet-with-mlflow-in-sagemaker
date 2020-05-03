@@ -25,7 +25,9 @@ RUN pip3 install --no-cache --upgrade \
         boto3==1.12.48 \
         pandas==1.0.3 \
         scikit-learn==0.22.2.post1 \
-        sagemaker==1.55.4
+        sagemaker==1.55.4 \
+        pymysql==0.9.3 \
+        mxnet==1.6.0
 
 WORKDIR /notebooks
 CMD jupyter notebook \

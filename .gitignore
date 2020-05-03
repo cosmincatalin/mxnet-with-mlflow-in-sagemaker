@@ -5,3 +5,5 @@ env
 src/model.tar.gz
 src/.ipynb_checkpoints
 src/__pycache__
+src/net-symbol.json
+src/net-0000.params
